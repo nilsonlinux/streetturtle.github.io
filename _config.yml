@@ -2,6 +2,7 @@
 
 name: Nilsonlinux
 description: Software Developer
+email: nilsonlinux@gmail.com 
 
 url: https://nilsonlinux.github.io
 #url: https://nilsonsoft.github.io
@@ -25,6 +26,7 @@ share:
   linkedin: true
   pinterest:
   email: true
+
 
 collections:
   quicknotes:
