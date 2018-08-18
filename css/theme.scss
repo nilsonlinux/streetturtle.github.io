@@ -449,9 +449,9 @@ ul.servicos {
     color: white;
   }
 
-  .fa-github:hover {
-    -webkit-animation: github 1s ease-in-out forwards;
-    animation: github 1s ease-in-out forwards;
+  .fa-wrench:hover {
+    -webkit-animation: wrench 1s ease-in-out forwards;
+    animation: wrench 1s ease-in-out forwards;
   }
   .fa-stack-overflow:hover {
     -webkit-animation: stack-overflow 1s ease-in-out forwards;
@@ -478,7 +478,7 @@ ul.servicos {
     animation: twitter 1s ease-in-out forwards;
   }
 
-  @-webkit-keyframes github         {0% {color: white;} 50% {color: #333333;} 100% {color: #3CA2A2;}}
+  @-webkit-keyframes wrench         {0% {color: white;} 50% {color: #333333;} 100% {color: #3CA2A2;}}
   @-webkit-keyframes stack-overflow {0% {color: white;} 50% {color: #fe7a15;} 100% {color: #3CA2A2;}}
   @-webkit-keyframes linkedin       {0% {color: white;} 50% {color: #4875B4;} 100% {color: #3CA2A2;}}
   @-webkit-keyframes google-plus    {0% {color: white;} 50% {color: #ff0400;} 100% {color: #3CA2A2;}}
