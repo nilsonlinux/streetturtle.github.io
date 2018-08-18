@@ -433,3 +433,56 @@ figure.in-list {
   font-family:"AwesomeFont";
   src: url('{{site.url}}/css/awesomewmfont.ttf')
 }
+
+/////////////////////////////////////////////////SOCIAL-PAINEL
+
+ul.social-painel {
+  text-align: center;
+  padding: 0;
+  li {
+    display: inline-block;
+  }
+  li > a {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    display: inline-block;
+    color: white;
+  }
+
+  .fa-github:hover {
+    -webkit-animation: github 1s ease-in-out forwards;
+    animation: github 1s ease-in-out forwards;
+  }
+  .fa-stack-overflow:hover {
+    -webkit-animation: stack-overflow 1s ease-in-out forwards;
+    animation: stack-overflow 1s ease-in-out forwards;
+  }
+  .fa-linkedin:hover {
+    -webkit-animation: linkedin 1s ease-in-out forwards;
+    animation: linkedin 1s ease-in-out forwards;
+  }
+  .fa-google-plus:hover {
+    -webkit-animation: google-plus 1s ease-in-out forwards;
+    animation: google-plus 1s ease-in-out forwards;
+  }
+  .fa-instagram:hover {
+    -webkit-animation: instagram 1s ease-in-out forwards;
+    animation: instagram 1s ease-in-out forwards;
+  }
+  .fa-lastfm:hover {
+    -webkit-animation: lastfm 1s ease-in-out forwards;
+    animation: lastfm 1s ease-in-out forwards;
+  }
+  .fa-twitter:hover {
+    -webkit-animation: twitter 1s ease-in-out forwards;
+    animation: twitter 1s ease-in-out forwards;
+  }
+
+  @-webkit-keyframes github         {0% {color: white;} 50% {color: #333333;} 100% {color: #3CA2A2;}}
+  @-webkit-keyframes stack-overflow {0% {color: white;} 50% {color: #fe7a15;} 100% {color: #3CA2A2;}}
+  @-webkit-keyframes linkedin       {0% {color: white;} 50% {color: #4875B4;} 100% {color: #3CA2A2;}}
+  @-webkit-keyframes google-plus    {0% {color: white;} 50% {color: #ff0400;} 100% {color: #3CA2A2;}}
+  @-webkit-keyframes instagram      {0% {color: white;} 50% {color: #517fa4;} 100% {color: #3CA2A2;}}
+  @-webkit-keyframes lastfm         {0% {color: white;} 50% {color: #c3000d;} 100% {color: #3CA2A2;}}
+  @-webkit-keyframes twitter        {0% {color: white;} 50% {color: #4875B4;} 100% {color: #3CA2A2;}}
+}
