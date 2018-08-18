@@ -1,3 +1,3 @@
-streetturtle
+Blog para meus projetos. Ainda em desenvolvimento. 
 ============
-Some test readme
+Obrigado....
